@@ -1,0 +1,192 @@
+#html, body {
+  height: 100%;
+  margin: 0;
+    }
+#wrapper {
+  padding-bottom: 2.5rem;
+}
+
+#body {
+  background-color:#fff;
+  font-family:arial,helvetica,sans-serif,verdana,'Open Sans';
+  display: flex;
+  flex-direction: column;
+}
+
+#topnav {
+  background-color: #F4EAEA;
+  overflow: hidden;
+  max-width: 274px;
+  position: relative;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#topnav a {
+  float: left;
+  color: grey;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 14px 16px;
+}
+
+#topnav a#hover {
+  background-color: #FF0000;
+  color: grey;
+  text-align: center;
+}
+
+#topnav a#active {
+  background-color: #FF0000;
+  color: white;
+  text-align: center;
+}
+
+#title1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: grey;
+}
+
+#untertitel {
+  margin: auto;
+  width: 64%;
+  margin-top: 30px;
+}
+
+#lauftext{
+  margin: auto;
+  width: 65%;
+  padding: 10px;
+}
+
+#bildfluss{
+  float: right;
+}
+
+#title2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: grey;
+  text-align: center;
+}
+#lauftext2{
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#loading{
+position:absolute;
+top:0px;
+left:0px;
+width:100%;
+height:100%;
+text-align:center;
+background-color:rgba(0,0,0,0.7);
+}
+
+#jssor_1 {
+  position:relative;
+  margin:0 auto;
+  top:0px;
+  left:0px;
+  width:980px;
+  height:480px;
+  overflow:hidden;
+  visibility:hidden;
+  margin-bottom: 60px;
+}
+
+#img1 {
+  margin-top:-19px;
+  position:relative;
+  top:50%;
+  width:38px;
+  height:38px;
+}
+
+#bild1 {
+  cursor:default;
+  position:relative;
+  top:0px;
+  left:0px;
+  width:980px;
+  height:380px;
+  overflow:hidden;
+}
+
+#navigator {
+  position:absolute;
+  bottom:12px;
+  right:12px;
+}
+#navigation-points {
+  width:16px;
+  height:16px;
+}
+
+#arrowleft {
+  width:55px;
+  height:55px;
+  top:0px;
+  left:25px;
+  float: left;
+  position: absolute;
+}
+
+#arrowright {
+  width:55px;
+  height:55px;
+  top:0px;
+  right:25px;
+  float: left;
+  position: absolute;
+}
+
+#footer {
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+#impressum {
+  color: white;
+  text-decoration: none;
+}
+
+#kontakt {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+#impressum-angaben {
+  margin-left: 33%;
+}
+
+#formular {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#button-formular {
+background-color: red;
+color: white;
+padding: 15px 10px;
+border-radius: 4px;
+}
+
+#button-danke {
+background-color: red;
+color: white;
+padding: 15px 10px;
+border-radius: 4px;
+margin-left: 43%;
+}
